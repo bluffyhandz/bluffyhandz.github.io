@@ -1,0 +1,61 @@
+﻿#teamLogos img {
+    width: 75px;
+    height: 75px;
+}
+
+#lerozan img {
+    width: 75px;
+    height: 75px;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+}
+
+#navHover a {
+    color: white;
+    transition: 1s;
+}
+
+#bulls a:hover {
+    color: red;
+    transition: 1s;
+}
+
+#bears a:hover {
+    color: orangered;
+    transition: 1s;
+}
+
+#whitesox a:hover {
+    color: grey;
+    transition: 1s;
+}
+
+#cubs a:hover {
+    color: cornflowerblue;
+    transition: 1s;
+}
+
+#blackhawks a:hover {
+    color: indianred;
+    transition: 1s;
+}
+
+u {
+    text-underline-offset: 5px;
+}
+
+#usefulLinks a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+#contact img {
+    width: 25px;
+    height: 25px;
+}
