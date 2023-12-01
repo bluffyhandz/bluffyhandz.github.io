@@ -63,11 +63,21 @@
     
     
     
-    
+
+
+@media screen and (min-width:320px){
+
+    #brand{
+        width: 50%;
+    }
+
+}
+
+
 @media all and (min-width:400px){
     
     #brand {
-        width: 100%;
+        width: 50%;
         height: 100px;
     }
 
