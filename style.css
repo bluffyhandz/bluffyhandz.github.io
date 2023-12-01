@@ -64,7 +64,12 @@
     
     
     
-@media all and (min-width:320px){
+@media all and (min-width:400px){
+    
+    #brand {
+        width: 100%;
+        height: 100px;
+    }
 
     .overlay {
         text-align: right;
