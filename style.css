@@ -61,23 +61,12 @@
         width: 100%;
     }
     
-    
-    
-
-
-@media screen and (min-width:320px){
-
-    #brand{
-        width: 50%;
-    }
-
-}
 
 
 @media all and (min-width:400px){
     
     #brand {
-        width: 50%;
+        width: 100%;
         height: 100px;
     }
 
@@ -107,8 +96,6 @@
         #brand {
         width: 100%;
         height: 100px;
-        position: relative;
-        left: 150%;
     }
         .overlay {
         text-align: right;
