@@ -127,7 +127,7 @@
 
 @media all and (min-width: 640px) {
     #brand {
-        width: 100%;
+        width: 50%;
         height: 100px;
         position: relative;
         left: 230%;
