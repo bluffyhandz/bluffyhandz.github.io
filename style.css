@@ -30,7 +30,6 @@
     color: grey;
 }
 
-
 .dropdown-menu a{
     color: black;
 }
@@ -66,8 +65,8 @@
 @media all and (min-width:400px){
     
     #brand {
-        width: 50%;
-        height: 100px;
+        width: 25%;
+        height: 50px;
     }
 
     .overlay {
@@ -95,8 +94,8 @@
     @media all and (min-width: 475px){
 
         #brand {
-        width: 50%;
-        height: 100px;
+        width: 25%;
+        height: 50px;
     }
         .overlay {
         text-align: right;
