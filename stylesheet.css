@@ -102,3 +102,119 @@
     position: absolute;
     top: 100vh;
 }
+
+
+
+
+
+
+
+
+
+@media all and (min-width: 400px) {
+    .overlay {
+        color: white;
+        position: absolute;
+        text-align: right;
+        right: 10%;
+        top: 20%;
+    }
+
+        .overlay p {
+            font-size: 12px;
+            font-weight: 100;
+        }
+
+        .overlay h1 {
+            font-size: 20px;
+        }
+
+
+    .fireButton {
+        color: white;
+        background-color: transparent;
+        border: solid white;
+        border-radius: 10px;
+        padding: 1px;
+        font-size: 12px;
+    }
+
+    .fireInfo {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #B3DDF2;
+        position: absolute;
+        top: 80vh;
+        color: black;
+        justify-content: end;
+
+    }
+
+    .left {
+
+    }
+
+    .right {
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media all and (min-width: 700px) {
+    .overlay {
+        color: black;
+        position: absolute;
+        text-align: right;
+        right: 10%;
+        top: 40%;
+    }
+
+        .overlay p {
+            font-size: 25px;
+            font-weight: 100;
+        }
+
+        .overlay h1 {
+            font-size: 80px;
+        }
+
+
+    .fireButton {
+        color: white;
+        background-color: transparent;
+        border: solid white 2px;
+        border-radius: 10px;
+        padding: 20px;
+    }
+}
+
+   
+    
+    
+    
+    
+    
+    
+    
