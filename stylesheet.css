@@ -1,0 +1,80 @@
+﻿body {
+    font-family: Lora, sans-serif;
+    background-color: #B3DDF2;
+}
+
+.navbox{
+    height: 8vh;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.brand img{
+    height: 10vh;
+
+}
+
+.links {
+    padding: 6vh;
+    padding-top: 5vh;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#fireVideo{
+    width: 100%;
+    position: absolute;
+    top: 10vh;
+}
+
+.un {
+    display: inline-block;
+}
+
+    .un::after {
+        content: '';
+        width: 0px;
+        height: 1px;
+        display: block;
+        background: black;
+        transition: 300ms;
+    }
+
+    .un:hover::after {
+        width: 100%;
+    }
+
+.overlay {
+    color: white;
+    position: absolute;
+    text-align: right;
+    right: 10%;
+    top: 40%;
+}
+
+.overlay p {
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.overlay h1 {
+    font-size: 80px;
+}
+
+
+.fireButton{
+    color: white;
+    background-color: transparent;
+    border: solid white 2px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.fireButton:hover{
+    color: lightgrey;
+    opacity: 0.8;
+}

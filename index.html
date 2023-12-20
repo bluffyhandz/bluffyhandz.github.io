@@ -5,55 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Chicago Fire FX</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="stylesheet.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
-</head>
+</head> 
 <body>
 
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img class="img-fluid" id="brand" src="firebrand.png" /></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item un pe-3">
-                            <a class="nav-link" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item un pe-3">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item un pe-3 ">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                        <li class="nav-item dropdown pe-3">
-                            <a class=" nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Services
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Fire Dancers</a></li>
-                                <li><a class="dropdown-item" href="#">Flame Effect Operators</a></li>
-                                <li><a class="dropdown-item" href="#">Indoor Theater</a></li>
-                                <li><a class="dropdown-item" href="#">Permits and Insurance</a></li>
-                                <li><a class="dropdown-item" href="#">Video/Photo Production</a></li>
-                            </ul>
-                        </li>
-                    </ul>
+
+    <nav>
+        <div class="navbox">
+                <a class="un links" href="">Home</a>
+                <a class="un links" href="">About</a>
+                <div class="brand">
+                    <a href=""><img src="firebrand.png" /></a>
                 </div>
-            </div>
+                <a class="un links" href="">Contact</a>
+                <a class="un links" href="">Services</a>
+        </div>
     </nav>
 
-    <div>
-        <video id="firegardenVideo" style="width: 100%;" autoplay playsinline muted loop src="firegarden.mp4">
-            Your browser does not support the video tag
+    <section class="fireGarden">
+        <video id="fireVideo" src="firegarden.mp4" autoplay playsinline loop muted>
+            Your browser doesn't support the video tag.
         </video>
-    </div>
-    <div class="overlay">
-        <p><h1>Fire Gardens</h1></p>
-        <p>4 Locations. 500+ Flames <br />1 Experience</p>
-        <button id="gardenBtn" class="btn btn-outline-light btn-lg">Explore the Garden</button>
-    </div>
+
+        <div class="overlay">
+            <h1>Fire Gardens</h1>
+            <p>4 Locations. 500+ Flames.</p>
+            <p>1 Experience.</p>
+            <button class="fireButton">Explore the Garden</button>
+        </div>
+    </section>
+
+
+
+
 
 
 
