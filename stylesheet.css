@@ -21,6 +21,48 @@
     background-image: linear-gradient( black, white);
 }
 
+.banner{
+    position: absolute;
+    top: 800px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+
+}
+
+.banner2{
+    position: absolute;
+    top: 1700px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+
+}
+
+.banner3{
+    position: absolute;
+    top: 2720px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+
+}
+
+.banner-left{
+    padding-left: 100px;
+}
+
+.firstOverlay{
+    position: absolute;
+    top: 450px;
+    right: 20px;
+}
+
+
+
 
 
 
