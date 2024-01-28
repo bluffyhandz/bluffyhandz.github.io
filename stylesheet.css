@@ -71,7 +71,7 @@
 @media screen and (min-width:375px){
     .banner{
         position: absolute;
-        top: 350px;
+        top: 365px;
         height: 350px;
         display: flex;
         align-items: center;
@@ -81,7 +81,7 @@
     
     .banner2{
         position: absolute;
-        top: 900px;
+        top: 960px;
         height: 350px;
         display: flex;
         align-items: center;
@@ -104,18 +104,18 @@
     }
 
     #secondImg{
-        padding-top: 300px;
+        padding-top: 340px;
     }
 
     #thirdImg{
-        padding-top: 325px;
+        padding-top: 345px;
     }
 
     .flexwrapper{
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         width: 100%;
-        gap: 10px;
+        gap: 10px;  
         height: 350px;
         padding: 0px 50px 0px 50px;
     }
