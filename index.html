@@ -12,8 +12,8 @@
 
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="firebrand.png" style="width:150px;"></a>
+        <div class="container-fluid flex-nowrap">
+            <a class="navbar-brand" href="#"><img id="brand" src="firebrand.png"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -25,25 +25,24 @@
                 <div class="mt-2 offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 mt-3 pe-5">
                         <li class="nav-item pe-2">
-                            <a class="nav-link link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item pe-2">
-                            <a class="nav-link link active" href="#">About</a>
+                            <a class="nav-link link active" href="about.html">About</a>
                         </li>
                         <li class="nav-item pe-2">
-                            <a class="nav-link link active" href="#">Contact</a>
+                            <a class="nav-link link active" href="contact.html">Contact</a>
                         </li> 
                         <li class="nav-item dropdown">
                             <a class="nav-link link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Services
                             </a>
                             <ul class="dropdown-menu dropdown-menu-dark">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="#">Flame Effect Operators</a></li>
+                                <li><a class="dropdown-item" href="#">Fire Dancers</a></li>
+                                <li><a class="dropdown-item" href="#">Indoor Theater</a></li>
+                                <li><a class="dropdown-item" href="#">Permit Insurance</a></li>
+                                <li><a class="dropdown-item" href="#">Production</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -61,21 +60,23 @@
             Your browser doesn't support the video tag.
         </video>
         <div class="firstOverlay">
-            <p>100+ Flames, 4 Gardens.
+            <h1>Fire Gardens</h1>
+            <strong><p>100+ Flames, 4 Gardens.
                 <br> 1 Experience 
-            </p>
+            </p></strong>
+            <button id="overlayBtn" type="button" class="btn btn-outline-light">EXPLORE THE GARDEN</button>
         </div>
 
 
-    <div class="container-fluid banner">
-        <div class="row flex">
-            <span class=" banner-left ms-2 ">
+    <div class="container-fluid banner ">
+        <div class="row">
+            <span class=" col banner-left ms-2 ">
                 <h1>Don't Dream
                 <br /> Do.</h1>
             </span>
-            <div class="banner-right">
-                Eiusmod duis nisi pariatur nostrud culpa consequat proident velit pariatur est culpa ullamco. Est tempor dolor ad do culpa pariatur consequat nisi reprehenderit exercitation velit excepteur dolore. Proident ut aliqua commodo id. Est id sint nulla adipisicing commodo adipisicing reprehenderit proident adipisicing laborum minim. 
-            </div>
+            <span class="col-md banner-right">
+                Laboris consectetur amet laboris nulla adipisicing mollit exercitation. Veniam sint ea laborum aute labore ullamco cillum ut laboris consequat consectetur esse. Nisi magna officia tempor commodo dolore magna deserunt. Duis nisi adipisicing sint reprehenderit do aute adipisicing anim proident voluptate excepteur magna.
+            </span>
         </div>
     </div>
 
@@ -94,30 +95,60 @@
     </div>
 
     
-    <img id="thirdImg" src="PXL_20201106_003121183.MP.jpg" style="width: 100%; height: 100%;" />
+    <img id="thirdImg" src="PXL_20201106_003121183.MP.jpg" style="width: 100%;" />
 
 
-    <center> 
+    <section class="socialMedia">
         
-        <hr style="width: 90%; padding-bottom: 25px;">
-        <h1 style="padding-bottom: 25px;"> Find Us On Instagram </h1> 
+        <!--Instagram Section-->
+        <hr id='generalHr'>
+        <h1 style="padding-bottom: 25px;"> Find Us On Social Media </h1> 
         
-
+        
         <div class="flexwrapper">
             <div class="one"><img src="20221201_191529.jpg" /></div>
             <div class="two"><img src="20230104_174324.jpg" /></div>
+        </div>
+        <div class="flexwrapper">
             <div class="three"><img src="20221201_191529.jpg" /></div>
             <div class="four"><img src="20221201_191529.jpg" /></div>
-
         </div>
+        <div class="flexwrapper">
+            <div class="three"><img src="20221201_191529.jpg" /></div>
+            <div class="four"><img src="20221201_191529.jpg" /></div>
+        </div>
+        
+        <!--Social Media Icons-->
+        <span class="socials">
+            <img src="facebook_icon.png">
+            <img src="instagram_icon.png">
+        </span>
+
+        <hr id="generalHr">
+        
     
-    </center>
+    </section>
 
 
 
 
 
 </section>
+
+<footer>
+
+    <div class="flexwrapper2">
+            <a>Entertainment Guide</a>
+            <a>Careers</a>
+    </div>
+    <div class="flexwrapper2">
+        <a>Upcoming Events</a>
+        <a>Contact</a>
+        <a>Terms of Service</a>
+    </div>
+
+    </div>
+</footer>
  
 
 
